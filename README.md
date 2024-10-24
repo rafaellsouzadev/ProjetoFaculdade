@@ -1,4 +1,4 @@
-### <h1 align="center">Curso APP Loja virtual com Spring Java 17 e Ionic 3</h1>
+### <h1 align="center">Curso APP Loja virtual com Spring Java 17, Ionic 5 Angular 16</h1>
 ## <h2>Anulos participantes</h2>
 <p>Nome: Rafael de Souza Alves</p>
 <p>Matricula: 202402217925</p>
