@@ -6,6 +6,15 @@
 <p>Matricula: 202402437461</p>
 
 
+## <h2>Imagens do projeto</h2>
+<div style="display: inline_block"><br/>
+<img align="center" alt="tela web" src="https://github.com/rafaellsouzadev/ProjetoFaculdade/blob/main/figma-faculdade1.png?raw=true">
+<img align="center" alt="tela mobile" src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white](https://github.com/rafaellsouzadev/ProjetoFaculdade/blob/main/figma-faculdade2.png?raw=true">
+<img align="center" alt="tela email" src="https://github.com/rafaellsouzadev/ProjetoFaculdade/blob/main/figma-faculdade3.png?raw=true">
+
+</div>
+
+
 ## <h2 align="center">liguagens e Framworks utilizados</h2>
 <div style="display: inline_block"><br/>
 <img align="center" alt="Java" src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white">
