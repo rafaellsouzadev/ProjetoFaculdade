@@ -6,6 +6,8 @@
 <p>Matricula: 202402437461</p>
 <p>Nome: Thayanna Priscilla Alves de Melo</p>
 <p>Matricula: 202403289105</p>
+<p>Nome: Keily Silvestre</p>
+<p>Matricula: 202402218948</p>
 
 
 ## <h2>Imagens do projeto</h2>
