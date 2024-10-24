@@ -2,6 +2,10 @@
 ## <h2>Anulos participantes</h2>
 <p>Nome: Rafael de Souza Alves</p>
 <p>Matricula: 202402217925</p>
+<p>Nome: Ana Bruna Feitosa Braga da Silva</p>
+<p>Matricula: 202402437461</p>
+
+
 ## <h2 align="center">liguagens e Framworks utilizados</h2>
 <div style="display: inline_block"><br/>
 <img align="center" alt="Java" src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white">
