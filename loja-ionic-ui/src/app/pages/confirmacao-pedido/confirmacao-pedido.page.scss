@@ -1,0 +1,100 @@
+.confirmacao {
+  background: linear-gradient(270deg, #a4df02, #000000, #2b312eac);
+  background-size: 400% 400%;
+  animation: gradient-animation 15s ease infinite;
+  min-height: 94.8vh; /* Faz o gradiente ocupar toda a altura da tela */
+  padding: 10px; /* Adiciona espaçamento no conteúdo */
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.cor-fundo {
+  background-color: #b2fba5;
+}
+
+.titulo {
+  text-align: center;
+  font-size: 20px;
+  color: #000000;
+  border: 2px solid;
+  background-color: transparent !important;
+}
+
+.produto-info {
+  display: flex;
+  flex-direction: column;
+  width: 100%; /* Ocupa toda a largura disponível */
+}
+
+.produto-nome {
+  text-align: left; /* Centraliza o nome do produto */
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 15px;
+}
+
+.produto-detalhes {
+  display: flex;
+  justify-content: space-between; /* Alinha os detalhes à esquerda e à direita */
+}
+
+.produto-quantidade {
+  text-align: left; /* Quantidade alinhada à esquerda */
+  margin-left: 15px;
+  font-size: 16px;
+}
+
+.produto-preco {
+  text-align: right; /* Preço alinhado à direita */
+  font-size: 16px;
+}
+
+.total {
+  text-align: right;
+  margin-left: 40%;
+}
+
+.cliente-info {
+  text-align: left; /* Centraliza o conteúdo */
+  width: 100%; /* Garante que ocupe toda a largura do container */
+}
+
+.cliente-info h2,
+.cliente-info p {
+  margin: 2px; /* Remove margens extras */
+  padding: 2px;
+}
+p {
+  font-size: 18px;
+}
+
+.endereco-info {
+  text-align: left; /* Centraliza o conteúdo */
+  width: 100%; /* Garante que ocupe toda a largura do container */
+}
+
+.endereco-info h2, .endereco-info p {
+  margin: 0; /* Remove margens extras */
+  padding: 0;
+}
+
+.pagamento-info {
+  text-align: left; /* Centraliza o conteúdo */
+  width: 100%; /* Garante que o conteúdo ocupe toda a largura do container */
+}
+
+.pagamento-info h3, .pagamento-info p {
+  margin: 0; /* Remove margens extras */
+  padding: 0;
+}

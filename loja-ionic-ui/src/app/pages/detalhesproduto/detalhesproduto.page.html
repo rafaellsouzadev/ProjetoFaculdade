@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/categorias"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Detalhes do Produtos</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" >
+
+  <ion-fab horizontal="end" vertical="top" edge  slot="fixed">
+    <ion-fab-button [routerLink]="['/cart']">
+      <ion-icon name="cart"></ion-icon>
+    </ion-fab-button>
+  </ion-fab> 
+  
+  <div class="card-container" class="produto">
+    <ion-card>
+      <img [src]="item?.imageUri" class="product-image">
+      <ion-card-content class="card">
+        <ion-card-title>
+          {{item?.nome}}
+        </ion-card-title>
+        <ion-card-subtitle class="descricao">
+          {{item?.descricao}}
+        </ion-card-subtitle>
+        <p class="preco">
+          {{item?.preco | currency}}
+        </p>
+      </ion-card-content>
+    </ion-card>
+
+    <ion-button expand="block"  class="add-to-cart-button" (click)="addTocart(item)"><strong>Adicionar ao carrinho</strong></ion-button>
+  </div>
+</ion-content>

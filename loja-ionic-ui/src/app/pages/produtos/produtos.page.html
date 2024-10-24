@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/categorias"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Produtos</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+  <ion-fab horizontal="end" vertical="top" edge  slot="fixed">
+    <ion-fab-button [routerLink]="['/cart']">
+      <ion-icon name="cart"></ion-icon>
+    </ion-fab-button>
+  </ion-fab> 
+  
+  <ion-list class="list-produto">
+    <button class="product-button" *ngFor="let item of items" (click)="showDetalhes(item.id)">
+      <ion-thumbnail slot="start" class="product-image">
+        <img [src]="item.imageUri">
+      </ion-thumbnail>
+      <div class="product-details">
+        <h2 class="product-name">{{item.nome}}</h2>
+        <p class="product-description">{{item.descricao}}</p>
+        <p class="product-price">{{item.preco | currency}}</p>
+      </div>
+    </button>
+  </ion-list>
+</ion-content>

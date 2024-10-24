@@ -1,0 +1,104 @@
+.carrinho {
+    --background: none;
+    background: linear-gradient(270deg, #a4df02, #000000, #2b312eac);
+    background-size: 400% 400%;
+    animation: gradient-animation 15s ease infinite;
+    min-height: 100vh; /* Ocupa toda a altura da tela */
+    padding: 10px;
+    display: flex;
+    flex-direction: column; /* Organiza o conteúdo na vertical */
+  }
+  
+  /* Animação gradiente */
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  /* Estilo da listagem de itens */
+  .cart-item {
+    --background: #8dc63f; /* cor de fundo ajustada */
+    border-radius: 5px;
+    margin-bottom: 5px;
+  }
+  
+  /* Estilos do detalhe do item */
+  .item-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .item-price {
+    font-size: 20px;
+    text-align: left;
+  }
+  
+  /* Quantidade, incremento e decremento na mesma linha */
+  .quantity-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 3px;
+  }
+  
+  .item-quantity {
+    margin: 0 10px;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  /* Estilizando o ícone da lixeira maior */
+  .remove-icon {
+    font-size: 28px; /* Aumenta o tamanho da lixeira */
+  }
+  
+  .icon {
+    font-size: 18px;
+  }
+  
+  /* Área do total e botão finalizar compra */
+  .cart-total {
+    text-align: right;
+    font-weight: bold;
+    margin: 20px 10px;
+    font-size: 26px;
+    color: #fff;
+  }
+  
+  .checkout-button {
+    background-color: #007bff;
+    color: white;
+    margin-bottom: 50px; 
+    position: sticky; 
+    bottom: 0; 
+    left: 0; 
+    z-index: 10; 
+
+  }
+
+  .checkout-button2 {
+    background-color: #75e44a !important;
+    color: #000;
+    margin-bottom: 5px; 
+    font-size: 18px;
+
+  }
+
+  .carrinho-vazio {
+    text-align: center;
+    align-items: center;
+  }
+  
+  .imagem-produto {
+    width: 100px;
+    height: 100px;
+  }
+  

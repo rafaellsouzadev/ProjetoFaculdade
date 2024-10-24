@@ -1,0 +1,50 @@
+.produto {
+    background: linear-gradient(270deg, #a4df02, #000000, #2b312eac);
+    background-size: 400% 400%;
+    animation: gradient-animation 15s ease infinite;
+    min-height: 94.8vh; /* Faz o gradiente ocupar toda a altura da tela */
+    padding: 10px; /* Adiciona espaçamento no conteúdo */
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+
+}
+
+.product-image {
+    width: 50vh;
+    height: 50vh;
+    margin-right: 8px;
+    margin-left: 0; /* Colado na borda */
+    border-radius: 8px; /* Para combinar com os cantos arredondados do botão */
+  }
+
+.card {
+    background: #8DC63F;
+    text-align: left;
+}
+
+.descricao {    
+    margin: 10px 10px 10px 0px;
+    color: black;
+    font-size: 16px;
+}
+
+.preco {
+    text-align: right;
+    font-size: 28px;
+    color: #fffcfc;
+    
+}
+
+.add-to-cart-button {
+  font-size: 21px;
+}

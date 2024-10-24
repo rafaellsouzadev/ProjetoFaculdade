@@ -1,0 +1,103 @@
+
+<ion-content aion-padding>
+  <div class="theme-bg"></div>
+  <div class="auth-content home">
+
+    <!-- Logo -->
+    <div aion-padding-horizontal aion-text-center class="animated fadeInDown">
+      <div class="logo"></div>
+      <h4 aion-no-margin>
+        <ion-text color="light" class="fw700">
+          <p> Job Nutrition </p>
+        </ion-text>
+      </h4>
+    </div>
+
+    <!-- Login form -->
+    <form class="list-form">
+      <ion-item aion-no-padding  class="animated fadeInUp">
+        <ion-label position="floating" class="login-senha">
+          <ion-icon name="mail" class="icon" item-start></ion-icon>
+          Email
+        </ion-label>
+        <ion-input aria-label="Email"  name="email" color="secondary" type="email" [(ngModel)]="creds.email"></ion-input>
+      </ion-item>
+      <p ion-text class="text08">
+        <ion-text color="warning">
+          Campo obrigatório
+        </ion-text>
+      </p>
+
+      <ion-item ion-no-padding class="animated fadeInUp">
+        <ion-label position="floating" class="login-senha">
+          <ion-icon name="key" class="icon" item-start></ion-icon>
+          Senha
+        </ion-label>
+        <ion-input aria-label="Senha"  name="senha" color="secondary" type="password" [(ngModel)]="creds.senha"></ion-input>
+      </ion-item>
+      <p ion-text color="warning" class="text08" >
+        <ion-text color="warning">
+          Campo obrigatório
+        </ion-text>
+        </p>
+    </form>
+
+    <p aion-text-right tappable  class="paz">
+      <ion-text color="light">
+        <strong>Esqueci minha senha?</strong>
+      </ion-text>
+    </p>
+
+    <div>
+      <ion-button icon-left size="medium" expand="full" shape="round" color="dark"   (click)="login()">
+        <ion-icon name="log-in"></ion-icon>
+        Entra
+      </ion-button>
+
+      <p aion-text-center>
+        <ion-text color="light">
+          Ou entre com:
+        </ion-text>
+      </p>
+
+      <ion-grid class="btn-group">
+        <ion-row>
+          <ion-col size="4">
+            <ion-button shape="round" expand="full" color="secondary">
+              <ion-icon slot="icon-only" href="#" name="logo-facebook"></ion-icon>
+            </ion-button>
+          </ion-col>
+          <ion-col size="4">
+            <ion-button shape="round" expand="full" color="secondary" 
+            href="https://instagram.com/" target="_blank">
+              <ion-icon slot="icon-only" name="logo-instagram"></ion-icon>
+            </ion-button>
+          </ion-col>
+          <ion-col size="4">
+            <ion-button shape="round" expand="full" color="secondary" 
+            href="https://api.whatsapp.com/send?phone= &text=Olá Gostaria de saber sobre os produtos do site" target="_blank">              
+              <ion-icon slot="icon-only" name="logo-whatsapp" ></ion-icon>                                             
+            </ion-button>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+
+    </div>
+    <br/>
+    <br/>
+    <!-- Other links -->
+    <div aion-text-center aion-margin-top>
+      <span  class="paz" tappable>
+        <ion-text color="light">
+          Novo aqui? 
+          <strong>
+            <ion-button color="secondary" shape="round" class="inscrever" (click)="cadastrar()">Inscrever-se</ion-button>
+          </strong>
+        </ion-text>
+      </span>
+    </div>
+    
+    
+    
+  </div>
+</ion-content>

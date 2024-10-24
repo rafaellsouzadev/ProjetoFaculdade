@@ -1,0 +1,71 @@
+// Estilo do botão de produto
+.categoria-button {
+  text-align: left;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 100%;
+  background-color: #8DC63F; /* Aplicando a cor de fundo em toda a área do botão */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombras leves para destacar os itens */
+  margin-bottom: 10px; /* Espaçamento entre os itens */
+  }
+  
+  // Estilo da imagem
+  .categoria-image {
+    width: 120px;
+    height: 120px;
+    object-fit: cover; /* Garante que a imagem se ajuste corretamente dentro do container */
+    margin-right: 8px;
+  }
+  
+  // Remover estilos padrão do ion-thumbnail
+  ion-thumbnail {
+    min-width: 120px; /* Mantém a largura da imagem */
+    min-height: 120px; /* Mantém a altura da imagem */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden; /* Evita o corte da imagem */
+  }
+  
+  // Estilo do contêiner de detalhes do produto
+  .categoria-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centraliza verticalmente os detalhes */
+    width: 100%;
+  }
+  
+  // Nome do produto centralizado e destacado
+  .categoria-name {
+    margin-top: 40px;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+  }
+
+  .list-categoria {
+    background: linear-gradient(270deg, #a4df02, #000000, #2b312eac);
+    background-size: 400% 400%;
+    animation: gradient-animation 15s ease infinite;
+    min-height: 94.8vh; /* Faz o gradiente ocupar toda a altura da tela */
+    padding: 10px; /* Adiciona espaçamento no conteúdo */
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  
+  }
+  

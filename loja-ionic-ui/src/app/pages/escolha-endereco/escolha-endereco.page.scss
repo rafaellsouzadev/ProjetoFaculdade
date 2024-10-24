@@ -1,0 +1,78 @@
+.escolhaEndereco {
+  --background: none;
+  background: linear-gradient(270deg, #a4df02, #000000, #2b312eac);
+  background-size: 400% 400%;
+  animation: gradient-animation 15s ease infinite;
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+ion-list-header {
+  --background: none;
+  background: linear-gradient(270deg, #a4df02, #000000, #2b312eac);
+  background-size: 400% 400%;
+  animation: gradient-animation 15s ease infinite;
+}
+
+/* Animação gradiente */
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.selecao-endereco {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.lista-enderecos {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; 
+}
+
+.item-endereco {
+  background-color: #b2fba5; 
+  border-radius: 0px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  color: #333;
+  transition: transform 0.3s ease;
+  border: 4px solid ;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  
+}
+
+.item-endereco:hover {
+  transform: scale(1.02); 
+}
+
+.item-endereco:active  {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transform: translateY(2px);
+}
+
+.item-endereco h2 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.item-endereco p {
+  font-size: 1rem;
+  margin: 0;
+  color: #666;
+}

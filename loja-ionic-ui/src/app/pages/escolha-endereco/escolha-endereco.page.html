@@ -1,0 +1,23 @@
+<ion-header class="gradient-header">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/cart"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Escolha de Endereço</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="escolhaEndereco">
+  <ion-list>
+    <ion-list-header>
+      <h2 class="selecao-endereco">Selecione um Endereço</h2>
+    </ion-list-header>
+    <div class="lista-enderecos">
+      <button ion-item *ngFor="let item of items" class="item-endereco" (click)="nextPage(item)">
+        <h2><strong>Logradouro:</strong> {{item.logradouro}}, N° {{item.numero}}</h2>
+        <p>{{item.complemento || ''}} <strong>Bairro:</strong> {{item.bairro}} <strong>CEP:</strong> {{item.cep}}</p>
+        <p>{{item.cidade.nome}}, {{item.cidade.estado?.nome}}</p>
+      </button>
+    </div>
+  </ion-list>
+</ion-content>

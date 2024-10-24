@@ -1,0 +1,25 @@
+{
+  "typescript.preferences.autoImportFileExcludePatterns": [
+    "@ionic/angular/common",
+    "@ionic/angular/standalone"
+  ],
+  "cSpell.language": "en,en-GB",
+  "cSpell.words": [
+    "Cadastro",
+    "cliente",
+    "Cnpj",
+    "descricao",
+    "Editar",
+    "endereco",
+    "Endereço",
+    "enderecos",
+    "logradouro",
+    "Nascimento",
+    "Perfil",
+    "Produtos",
+    "Salvar",
+    "Telefone",
+    "telefones",
+    "tipo"
+  ]
+}
