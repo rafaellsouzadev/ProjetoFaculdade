@@ -4,6 +4,8 @@
 <p>Matricula: 202402217925</p>
 <p>Nome: Ana Bruna Feitosa Braga da Silva</p>
 <p>Matricula: 202402437461</p>
+<p>Nome: Thayanna Priscilla Alves de Melo</p>
+<p>Matricula: 202403289105</p>
 
 
 ## <h2>Imagens do projeto</h2>
