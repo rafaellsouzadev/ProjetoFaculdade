@@ -11,7 +11,7 @@
 
 
 ## <h2>Imagens do projeto</h2>
-<div style="display: inline_block"><br/>
+<div style="flex: inline_block"><br/>
 <img align="center" alt="tela web" src="https://github.com/rafaellsouzadev/ProjetoFaculdade/blob/main/figma-faculdade1.png?raw=true">
 <img align="center" alt="tela mobile" src="https://github.com/rafaellsouzadev/ProjetoFaculdade/blob/main/figma-faculdade2.png?raw=true">
 <img align="center" alt="tela email" src="https://github.com/rafaellsouzadev/ProjetoFaculdade/blob/main/figma-faculdade3.png?raw=true">
@@ -27,6 +27,5 @@
 <img align="center" alt="Spring" src="https://img.shields.io/badge/Cordova-35434F?style=for-the-badge&logo=apache-cordova&logoColor=E8E8E8">
 <img align="center" alt="Spring" src="https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=Spring-Security&logoColor=white">
 <img align="center" alt="Spring" src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white">
-<img align="center" alt="Spring" src="https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white">
 <img align="center" alt="Spring" src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white">	
 </div>
