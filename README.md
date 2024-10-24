@@ -9,7 +9,7 @@
 ## <h2>Imagens do projeto</h2>
 <div style="display: inline_block"><br/>
 <img align="center" alt="tela web" src="https://github.com/rafaellsouzadev/ProjetoFaculdade/blob/main/figma-faculdade1.png?raw=true">
-<img align="center" alt="tela mobile" src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white](https://github.com/rafaellsouzadev/ProjetoFaculdade/blob/main/figma-faculdade2.png?raw=true">
+<img align="center" alt="tela mobile" src="https://github.com/rafaellsouzadev/ProjetoFaculdade/blob/main/figma-faculdade2.png?raw=true">
 <img align="center" alt="tela email" src="https://github.com/rafaellsouzadev/ProjetoFaculdade/blob/main/figma-faculdade3.png?raw=true">
 
 </div>
