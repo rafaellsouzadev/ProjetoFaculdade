@@ -44,7 +44,7 @@ public class CategoriaController {
 		return ResponseEntity.ok().body(categorias);
 	}
 	
-	@PreAuthorize("hasAnyRole('ADMIN')")
+	//@PreAuthorize("hasAnyRole('ADMIN')")
 	@PostMapping
 	public ResponseEntity<Void> insert(@Valid @RequestBody CategoriaDTO categoriaDTO) {
 		Categoria categoria = categoriaService.fromDTO(categoriaDTO);
@@ -55,7 +55,7 @@ public class CategoriaController {
 		return ResponseEntity.created(uri).build();
 	}
 
-	@PreAuthorize("hasAnyRole('ADMIN')")
+	//@PreAuthorize("hasAnyRole('ADMIN')")
 	@PutMapping(value = "/{id}")
 	public ResponseEntity<Void> update(@Valid @RequestBody CategoriaDTO categoriaDTO, @PathVariable Integer id) {
 		Categoria categoria = categoriaService.fromDTO(categoriaDTO);

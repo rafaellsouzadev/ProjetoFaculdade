@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { API_CONFIG } from 'src/config/api.config';
 import { CategoriaDTO } from 'src/models/categoria.dto';
 import { CategoriaService } from 'src/services/domain/categoria.service';
 
@@ -12,7 +11,7 @@ import { CategoriaService } from 'src/services/domain/categoria.service';
 })
 export class CategoriasPage implements OnInit {
 
-  bucketUrl: string = API_CONFIG.bucketBaseUrl;
+  
 
   items: CategoriaDTO[] = [];
 

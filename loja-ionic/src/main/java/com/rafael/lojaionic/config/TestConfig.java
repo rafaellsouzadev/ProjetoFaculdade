@@ -1,7 +1,5 @@
 package com.rafael.lojaionic.config;
 
-import java.text.ParseException;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -19,7 +17,7 @@ public class TestConfig {
 	private DBService dbServi;
 	
 	@Bean
-	public boolean instantiateDataBase() throws ParseException {
+	public boolean instantiateDataBase() throws Exception {
 		
 		dbServi.instantiateTestDatabase();
 		

@@ -1,0 +1,12 @@
+.distancia {
+    margin-top: 10px;
+}
+
+.custom-spacing button + button {
+    margin-left: 8px;
+  }
+  
+  .custom-spacing button + a {
+    margin-left: 24px; 
+  }
+  

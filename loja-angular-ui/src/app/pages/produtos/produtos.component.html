@@ -1,0 +1,20 @@
+<app-categoria></app-categoria>
+
+<div class="orders-list-container">
+  <div class="orders-list-items">
+      <div *ngFor="let produto of produtos" 
+           class="order-card-container"
+           [class.selected]="checkIsSelected(produto)"
+           (click)="onSelectProduct(produto)">
+          
+          <h3 class="order-card-title">{{ produto.nome }}</h3>
+          <img [src]="produto.imageUri" class="order-card-image" [alt]="produto.nome" />
+          <h3 class="order-card-price">{{ formatPrice(produto.preco) }}</h3>
+          
+          <div class="order-card-description">
+              <h3>Descrição</h3>
+              <p>{{ produto.descricao }}</p>
+          </div>
+      </div>
+  </div>
+</div>

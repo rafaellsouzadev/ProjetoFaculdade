@@ -1,0 +1,27 @@
+<nav class="main-navbar">
+  <img src="assets/logo.png" alt="Logo" />
+  <a routerLink="/" class="logo-text">Job Nutrition</a>
+</nav>
+
+<nav class="navbar">
+  <div class="container">
+      <ul class="navbar-links">
+          <li><a routerLink="/categorias-novo" routerLinkActive="active">Nova Categoria</a></li>
+          <li><a routerLink="/produtos-novo" routerLinkActive="active">Novo Produto</a></li>
+      </ul>
+      <div class="navbar-toggle" (click)="toggleMenu()">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+      </div>
+  </div>
+</nav>
+
+<div class="categoria-container">
+  <h2 class="categoria-title">Categoria</h2>
+  <div class="categoria-list">
+      <div class="categoria-item" *ngFor="let item of items" (click)="showProdutos(item.id)">
+          {{ item.nome }}
+      </div>
+  </div>
+</div>

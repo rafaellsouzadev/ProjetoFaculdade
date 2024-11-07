@@ -55,6 +55,7 @@ export class CadastroPage implements OnInit {
    this.estadoService.findAll()
     .subscribe(response => {      
       this.estados = response;      
+      console.log(this.estados);
       this.formGroup.controls['estadoId'].setValue(this.estados[0].id);
       this.updateCidades();
     })

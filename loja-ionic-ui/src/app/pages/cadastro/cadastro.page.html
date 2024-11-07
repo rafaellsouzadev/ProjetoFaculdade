@@ -41,12 +41,12 @@
     
 
     <ion-item *ngIf="formGroup.get('tipo')?.value == '1'">
-      <ion-label stacked>CPF</ion-label>
+      <ion-label stacked>CPF*</ion-label>
       <ion-input formControlName="cpfOuCnpj" type="text" aria-label="CPF"></ion-input>
     </ion-item>
     
     <ion-item *ngIf="formGroup.get('tipo')?.value == '2'">
-      <ion-label stacked>CNPJ</ion-label>
+      <ion-label stacked>CNPJ*</ion-label>
       <ion-input formControlName="cpfOuCnpj" type="text" aria-label="CNPJ"></ion-input>
     </ion-item>   
     <p class="danger" *ngIf="formGroup.controls['cpfOuCnpj'].dirty && formGroup.controls['cpfOuCnpj'].errors" margin-left>Valor inválido</p>

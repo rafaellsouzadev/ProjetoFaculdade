@@ -1,0 +1,21 @@
+<div class="container">
+    <form autocomplete="off" (ngSubmit)="salvar(); $event.preventDefault()" [formGroup]="formulario">
+      <div class="grid">
+
+        <div class="p-fluid col-12 md:col-9">
+          <label>Nome</label>
+          <input pInputText type="text" name="nome" formControlName="nome" />          
+        </div>  
+
+        <div class="col-12">
+          <button pButton type="submit" label="Salvar" icon="pi pi-check" iconPos="left"
+            [disabled]="formulario.invalid"></button>
+            
+          <button pButton type="button" (click)="novo()" label="Novo" class="p-button-info ml-2"></button>
+          <a class="ml-2 lancamento-screen__voltar" routerLink="/produtos">Voltar para Categorias</a>
+        </div>
+  
+      </div>
+    </form>
+  
+  </div>

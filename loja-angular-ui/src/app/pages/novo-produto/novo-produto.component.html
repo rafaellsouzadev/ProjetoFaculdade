@@ -1,0 +1,70 @@
+<div class="container">
+  <form autocomplete="off" (ngSubmit)="salvar()" [formGroup]="formulario">
+    <div class="grid">
+      <div class="p-fluid col-12 md:col-9 distancia">
+        <label>Nome</label>
+        <input pInputText type="text" name="nome" formControlName="nome" />
+      </div>
+
+      <div class="p-fluid col-12 distancia">
+        <label>Descrição</label>
+        <textarea
+          pInputTextarea
+          [rows]="3"
+          name="descricao"
+          formControlName="descricao"
+        ></textarea>
+      </div>
+
+      <div class="p-fluid col-12 md:col-3 distancia">
+        <label>Preço</label>
+        <p-inputNumber
+          mode="currency"
+          currency="BRL"
+          locale="pt-BR"
+          placeholder="0,00"
+          name="preco"
+          formControlName="preco"
+        ></p-inputNumber>
+      </div>
+
+      <div class="p-fluid col-12 md:col-6 distancia">
+        <label>Categoria</label>
+        <p-dropdown
+          [options]="categorias"
+          optionLabel="nome"
+          optionValue="id"
+          placeholder="Selecione"
+          formControlName="idCategoria"
+        >
+        </p-dropdown>
+      </div>
+
+      <div class="p-fluid col-12 md:col-9 distancia">
+        <label>Imagem URL (Cole o endereco web da imagem para ser salvo)</label>
+        <input pInputText type="text" name="nome" formControlName="imagemUri" />
+      </div>
+
+
+      <div class="col-12 md:col-3 mt-4 distancia custom-spacing">
+        <button
+          pButton
+          type="submit"
+          label="Salvar"
+          icon="pi pi-check"
+          iconPos="left"
+        ></button>
+        <button
+          pButton
+          type="button"
+          (click)="novo()"
+          label="Novo"
+          class="p-button-info"
+        ></button>
+        <a class="lancamento-screen__voltar" routerLink="/produtos"
+          >Voltar para a pesquisa</a
+        >
+      </div>
+    </div>
+  </form>
+</div>
